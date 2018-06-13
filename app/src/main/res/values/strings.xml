@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FontTest</string>
+    <string name="default_font">פונט דוגמא. יש!</string>
+</resources>

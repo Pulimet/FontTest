@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/f1"
+        style="@style/DefaultTextViewFont"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/f2"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="serif"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f1"/>
+
+    <TextView
+        android:id="@+id/f3"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/alef"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f2"/>
+
+    <TextView
+        android:id="@+id/f4"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/varela_round"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f3"/>
+
+    <TextView
+        android:id="@+id/f5"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/amatic_sc"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f4"/>
+
+    <TextView
+        android:id="@+id/f6"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/rubik_light"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f5"/>
+
+    <TextView
+        android:id="@+id/f7"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/heebo_thin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f6"/>
+
+    <TextView
+        android:id="@+id/f8"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/tinos"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f7"/>
+
+    <TextView
+        android:id="@+id/f9"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/assistant_extralight"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f8"/>
+
+    <TextView
+        android:id="@+id/f10"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/cousine"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f9"/>
+
+    <TextView
+        android:id="@+id/f11"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/miriam_libre"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f10"/>
+
+    <TextView
+        android:id="@+id/f12"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/secular_one"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f11"/>
+
+    <TextView
+        android:id="@+id/f13"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/suez_one"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f12"/>
+
+    <TextView
+        android:id="@+id/f14"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/david_libre"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f13"/>
+
+    <TextView
+        android:id="@+id/f15"
+        style="@style/DefaultTextViewFont"
+        android:fontFamily="@font/DanaYad"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/f14"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Default:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f1"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Serif:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f2"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Alef:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f3"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Varela Round"
+        app:layout_constraintBaseline_toBaselineOf="@id/f4"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Amatic CS"
+        app:layout_constraintBaseline_toBaselineOf="@id/f5"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Rubic Light:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f6"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Heebo Thin:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f7"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Tinos:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f8"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Assistant:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f9"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Cousine:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f10"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Miriam Libre:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f11"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Secular One:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f12"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Suez One:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f13"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="David Libre:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f14"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        style="@style/DefaultTextView"
+        android:text="Dana Yad:"
+        app:layout_constraintBaseline_toBaselineOf="@id/f15"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="https://fonts.google.com/?subset=hebrew"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/f14"/>
+
+</android.support.constraint.ConstraintLayout>

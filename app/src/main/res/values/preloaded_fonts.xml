@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abeezee</item>
+        <item>@font/alef</item>
+        <item>@font/amatic_sc</item>
+        <item>@font/arima_madurai_thin</item>
+        <item>@font/arimo</item>
+        <item>@font/assistant_extralight</item>
+        <item>@font/cousine</item>
+        <item>@font/david_libre</item>
+        <item>@font/heebo_thin</item>
+        <item>@font/miriam_libre</item>
+        <item>@font/rubik_light</item>
+        <item>@font/rubik_mono_one</item>
+        <item>@font/secular_one</item>
+        <item>@font/suez_one</item>
+        <item>@font/tinos</item>
+        <item>@font/varela</item>
+        <item>@font/varela_round</item>
+    </array>
+</resources>
